@@ -1,0 +1,14 @@
+body .with-media-forward .cards-base {
+  margin-top: 0;
+}
+body .with-media-forward .cards-base .media-forward,
+body .with-media-forward .expanded-content {
+  max-height: 0;
+}
+body .with-media-forward.opened-tweet .cards-base {
+  margin-top: 10px;
+}
+body .with-media-forward.opened-tweet .cards-base .media-forward,
+body .with-media-forward.opened-tweet .expanded-content {
+  max-height: none;
+}
